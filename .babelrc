@@ -1,0 +1,17 @@
+{
+"plugins": [
+    ["transform-react-jsx", { "pragma": "h" }],
+    "dynamic-import-webpack"
+  ],
+  "presets": [
+    ["env", { "modules": false }]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["env", "es2015"]
+      ]
+    }
+  }
+ }
+
